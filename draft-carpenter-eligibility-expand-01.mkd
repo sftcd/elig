@@ -1,0 +1,140 @@
+---
+title: Additional Criteria for Nominating Committee Eligibility
+abbrev: Additional Eligibility Criteria
+docname: draft-carpenter-eligibility-expand-01
+date: 2020-03-18
+
+# stand_alone: true
+
+ipr: trust200902
+area: General
+wg: Network Working Group
+kw: Internet-Draft
+cat: bcp
+updates: 8713
+
+coding: us-ascii
+pi:
+  toc: yes
+  sortrefs:   # defaults to yes
+  symrefs: yes
+
+author:
+      -
+        ins: B. E. Carpenter
+        name: Brian E. Carpenter
+        # org: The University of Auckland
+        # abbrev: Univ. of Auckland
+        street:
+        - School of Computer Science
+        - University of Auckland
+        - PB 92019
+        city: Auckland
+        code: 1142
+        country: New Zealand
+        email: brian.e.carpenter@gmail.com
+
+      -
+        ins: S. Farrell
+        name: Stephen Farrell
+        org: Trinity College Dublin
+        street: College Green
+        city: Dublin
+        country: Ireland
+        email: stephen.farrell@cs.tcd.ie
+
+normative:
+  RFC8713:
+
+--- abstract
+
+This document updates the criteria for qualifying volunteers
+to participate in the IETF Nominating Committee. It therefore
+also updates the criteria for qualifying signatories to a
+community recall petition. The purpose is to make the criteria
+more flexible in view of increasing remote participation in the
+IETF and a probable decline in face-to-face meetings. This
+document updates RFC8713.
+
+--- middle
+
+# Introduction        {#intro}
+
+According to {{RFC8713}}, the IETF Nominating Committee is populated
+from a pool of volunteers with a specified record of attendance at
+IETF plenary face-to-face meetings. In view of the unexpected cancellation
+of the IETF 107 meeting, the risk of future cancellations, the probability
+of less frequent meetings in future in support of sustainability, and
+a general increase in remote participation, this document defines
+additional criteria to qualify volunteers in future.
+
+Also according to {{RFC8713}}, the qualification for signing a community
+petition for the recall of certain IETF office-holders is that same as
+for the Nominating Committee. This document does not change that, but
+see {{undone}}.
+
+# Goals        {#goals}
+
+The goals of the new criteria are as follows:
+
+- Mitigate the issue of active remote (or rarely in-person) participants being disenfranchised in the NomCom and recall processes.
+
+- Prepare for an era in which face-to-face plenary meetings are less frequent (thus extending the issue to many, perhaps a majority, of participants).
+
+- Do this quickly in view of the risk of IETF 108 being cancelled too, but ensure that the result is flexible for the future.
+
+- Ensure that those eligible are true "participants" with enough current understanding of IETF practice and people to make informed decisions.
+
+- The criteria must be algorithmic so that the Secretariat can check them mechanically.
+
+
+# Criteria     {#crit}
+
+There will be several alternative paths to qualification, replacing the single criterion in section 4.14 of {{RFC8713}}. Any one of the paths is sufficient, unless the person is otherwise disqualified under section 4.15 of {{RFC8713}}:
+
+- Path 1: As previously, the person has attended 3 out of the last 5 in-person IETF meetings. 
+
+- Path 2: Has been a WG Chair or Secretary within the last 3 years.
+
+- Path 3: Has submitted at least 6 reviews as a member of an official IETF review team within the last 3 years.
+
+- Path 4: Has served in the IESG or IAB, or has been appointed to a formal role by the IESG or IAB, within the last 5 years.
+
+- Path 5: Has been a listed author of at least 2 IETF stream RFCs within the last 5 years. A draft that has been approved by the IESG and is in the RFC Editor queue counts.
+
+- Open question: should we also consider authorship of drafts formally adopted by a WG? BOFs?
+
+- Another open question: do we need to consider how many nomcom voting members qualify via which paths? For example, would it be ok if all 10 nomcom voting members qualified via path 4 in one year?
+
+Certain criteria were rejected as not truly indicating effective IETF participation, or not being objectively and mechanically measurable. These included authorship of individual Internet-Drafts, prolific email, and the simple fact of remote meeting attendance; not to mention any qualitative evaluation of an individual's contributions. 
+
+# Possible Future Work {#undone}
+
+- Combined paths (e.g., a person who partly satisfies Path 3 and Path 5).
+
+- Considering "time decay" so that recent participation is more highly valued.
+
+- Do we need to consider how many voting members are qualified on which paths?
+
+- Separating the NomCom volunteer criteria from the recall petitioner criteria.
+
+
+# IANA Considerations
+
+This document makes no request of IANA.
+
+# Security Considerations
+
+This document should not affect the security of the Internet.
+
+# Acknowledgements
+
+TBD
+
+
+
+--- back
+
+
+
+
