@@ -111,8 +111,7 @@ There will be several alternative paths to qualification, replacing the single c
 
 - Path 2: Has been a WG Chair or Secretary within the last 3 years.
 
-- Path 3: Feedback on path-3 has been uniformly negative so ignore this, we'll leave the text here for now just to avoid renumbering.
-Has submitted at least 6 reviews as a member of an official IETF review team within the last 3 years.
+- Path 3: (Feedback on path 3 from draft-01 was uniformly negative so ignore this, we'll leave the text here for now just to avoid renumbering.)
 
 - Path 4: Has served in the IESG or IAB, or has been appointed to a formal role by the IESG or IAB, within the last 5 years.
 
@@ -122,7 +121,7 @@ Has submitted at least 6 reviews as a member of an official IETF review team wit
 
 - Should we also consider authorship of drafts formally adopted by a WG? 
 
-- Should BOF chairs and proponents qualify?
+- Should BOF chairs qualify for Path 2?
 
 - Should we consider remote meeting attendance and if so how do we measure it?
 Is there any difference from this point of view between plenary and interim meetings?
@@ -138,13 +137,14 @@ qualitative evaluation of an individual's contributions is considered.
 
 # Possible Future Work {#undone}
 
-- Combined paths (e.g., a person who partly satisfies Path 3 and Path 5);
-otherwise known as a "points system".
+- Combined paths (e.g., a person who partly satisfies Path 2 and Path 5);
+otherwise known as a "points system". That seems to involve work/complexity either
+for the secretariat or for the volunteer.
 
-- Considering "time decay" so that recent participation is more highly valued.
+- Tweaking the "time decay" in each of the path definitions that ensures
+recent participation is more highly valued.
 
 - Separating the NomCom volunteer criteria from the recall petitioner criteria.
-
 
 # IANA Considerations
 
@@ -166,7 +166,11 @@ Useful comments were received from John Klensin, Warren Kumari, Michael Richards
 ## Draft-01 to -02
 
 - Made this 3933 process experiment
-- Eliminated path based on directorate reviews
+
+- Eliminated path based on directorate reviews, used to be: "Has submitted at
+  least 6 reviews as a member of an official IETF review team within the last 3
+  years."
+
 - Other comments from IETF107 virtual gendispatch meeting handled
 
 ## Draft-00 to -01
