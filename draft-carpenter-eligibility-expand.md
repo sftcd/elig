@@ -1,8 +1,8 @@
 ---
 title: Additional Criteria for Nominating Committee Eligibility
 abbrev: Additional Eligibility Criteria
-docname: draft-carpenter-eligibility-expand-02
-date: 2020-03-28
+docname: draft-carpenter-eligibility-expand-pre-03
+date: 2020
 
 # stand_alone: true
 
