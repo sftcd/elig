@@ -75,6 +75,10 @@ petition for the recall of certain IETF office-holders is that same as
 for the Nominating Committee. This document does not change that, but
 see {{undone}}.
 
+The source for this is at https://github.com/sftcd/elig/ and PRs are welcome
+there. Discussion on the eligibility-discuss@ietf.org list
+is also welcome.
+
 # Term of the Experiment {#term}
 
 The cancellation of the in-person IETF 107 meeting, and the risk of IETF 108
@@ -130,6 +134,10 @@ Is there any difference from this point of view between plenary and interim meet
 For example, would it be ok if all 10 nomcom voting members qualified via
 path 4 in one year?
 
+- We have not yet done an analysis of the effects of the criteria described
+here based on information from the public record and IETF datatracker. 
+That should be done before this process experiment starts.
+
 Certain criteria were rejected as not truly indicating effective IETF participation.
 These included authorship of individual Internet-Drafts, sending email to IETF lists,
 reviewing drafts,
@@ -166,7 +174,7 @@ Useful comments were received from John Klensin, Warren Kumari, Michael Richards
 
 ## Draft-01 to -02
 
-- Made this 3933 process experiment
+- Made this an RFC 3933 process experiment
 
 - Eliminated path based on directorate reviews, used to be: "Has submitted at
   least 6 reviews as a member of an official IETF review team within the last 3
