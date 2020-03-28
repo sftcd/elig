@@ -2,7 +2,7 @@
 title: Additional Criteria for Nominating Committee Eligibility
 abbrev: Additional Eligibility Criteria
 docname: draft-carpenter-eligibility-expand-02
-date: 2020-03-27
+date: 2020-03-28
 
 # stand_alone: true
 
@@ -111,7 +111,7 @@ There will be several alternative paths to qualification, replacing the single c
 
 - Path 2: Has been a WG Chair or Secretary within the last 3 years.
 
-- Path 3: (Feedback on path 3 from draft-01 was uniformly negative so ignore this, we'll leave the text here for now just to avoid renumbering.)
+- Path 3: (Feedback on path 3 from draft-01 was uniformly negative so ignore this, we'll leave placeholder text here for now just to avoid renumbering.)
 
 - Path 4: Has served in the IESG or IAB, or has been appointed to a formal role by the IESG or IAB, within the last 5 years.
 
@@ -132,6 +132,7 @@ path 4 in one year?
 
 Certain criteria were rejected as not truly indicating effective IETF participation.
 These included authorship of individual Internet-Drafts, sending email to IETF lists,
+reviewing drafts,
 etc. Since the criteria must be objectively and mechanically measurable, no 
 qualitative evaluation of an individual's contributions is considered. 
 
