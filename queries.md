@@ -4,7 +4,7 @@
 As part of developing draft-carpenter-eligibility-expand, the set of queries
 we'd like to make against IETF data are:
 
-1. If we don't change our BCP but also don't meet f2f for the rest of 2020, who
+0. If we don't change our BCP but also don't meet f2f for the rest of 2020, who
    would become ineligible in 2021?  (Output: list0, a list of names.)
 
 1. Path#1: With our existing BCP, who would would remain eligible in 2021?
