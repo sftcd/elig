@@ -4,8 +4,9 @@
 As part of developing draft-carpenter-eligibility-expand, the set of queries
 we'd like to make against IETF data are:
 
-1. Path#1: With our existing BCP, who would would remain eligible in 2021?
-   (Output: list1, a list of names.)
+1. Path#1: With our existing BCP, who could remain eligible in 2021,
+   assuming one more f2f meeting does happen in time and everyone goes to
+   that?  (Output: list1, a list of names.)
 
 1. Path#2: Who has been a WG chair or secretary in the last N years?  (Input:
    N, Output: list2, a list of names)
