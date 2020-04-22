@@ -96,3 +96,59 @@ Sizes:
 
 A venn diagram might help: ![venn diagram](venn.png) 
 
+# Help
+
+If you'd like me to produce other numbes the command line parameters that 
+the tool has are:
+
+			usage: manage.py list_eligible [-h] [--version] [-v {0,1,2,3}]
+			                               [--settings SETTINGS] [--pythonpath PYTHONPATH]
+			                               [--traceback] [--no-color] [--date DATE]
+			                               [--summary]
+			                               [--previous_five PREVIOUS_FIVE [PREVIOUS_FIVE ...]]
+			                               [--officer_date OFFICER_DATE]
+			                               [--officer_roles OFFICER_ROLES [OFFICER_ROLES ...]]
+			                               [--group_types GROUP_TYPES [GROUP_TYPES ...]]
+			                               [--group_states GROUP_STATES [GROUP_STATES ...]]
+			                               [--iesg_iab_date IESG_IAB_DATE]
+			                               [--rfc_date RFC_DATE] [--rfc_count RFC_COUNT]
+			                               [--file_out FILE_OUT]
+			
+			List nomcom eligible people using various eligibility criterea.
+			
+			optional arguments:
+			  -h, --help            show this help message and exit
+			  --version             show program's version number and exit
+			  -v {0,1,2,3}, --verbosity {0,1,2,3}
+			                        Verbosity level; 0=minimal output, 1=normal output,
+			                        2=verbose output, 3=very verbose output
+			  --settings SETTINGS   The Python path to a settings module, e.g.
+			                        "myproject.settings.main". If this isn't provided, the
+			                        DJANGO_SETTINGS_MODULE environment variable will be
+			                        used.
+			  --pythonpath PYTHONPATH
+			                        A directory to add to the Python path, e.g.
+			                        "/home/djangoprojects/myproject".
+			  --traceback           Raise on CommandError exceptions
+			  --no-color            Don't colorize the command output.
+			  --date DATE           Check eligibility as of this date
+			  --summary             Show only summary results. Do not enumerate lists.
+			  --previous_five PREVIOUS_FIVE [PREVIOUS_FIVE ...]
+			                        IETF meeting numbers to use as the previous five
+			                        meetings. Ignores --date.
+			  --officer_date OFFICER_DATE
+			                        Has been a group officer after date
+			  --officer_roles OFFICER_ROLES [OFFICER_ROLES ...]
+			                        What roles are consider group officer roles
+			  --group_types GROUP_TYPES [GROUP_TYPES ...]
+			                        What group types are considered for officer roles
+			  --group_states GROUP_STATES [GROUP_STATES ...]
+			                        What group states are considered for officer roles.
+			                        Example: "active" "bof"
+			  --iesg_iab_date IESG_IAB_DATE
+			                        Was on the IESG or IAB since date
+			  --rfc_date RFC_DATE   Was an author of some IETF stream RFCs since date
+			  --rfc_count RFC_COUNT
+			                        Was an author of at least this many IETF stream rfcs
+			  --file_out FILE_OUT   Provide the base of a file name for list outputs
+
