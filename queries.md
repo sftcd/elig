@@ -61,16 +61,16 @@ that shows how to generate these lists. The results below are from my modified
 version of Robert's code. Since this is all early days, I haven't yet created
 a branch of my own, but if you want to help/reproduce then:
 
-    - follow the [code-sprint instructions](SprintCoderSetup) to setup an environment (I use the docker stuff)
-    - clone Robert's [branch](https://svn.tools.ietf.org/svn/tools/ietfdb/personal/rjs/6.127.1.dev1-eligibility)
-    - follow [this](https://pypi.org/project/backports-datetime-fromisoformat/) workaround for a python version issue
-    - replace ietf/nomcom/management/commands/list_eligible.py with [this version](list_eligibele.py)
+- follow the [code-sprint instructions](SprintCoderSetup) to setup an environment (I use the docker stuff)
+- clone Robert's [branch](https://svn.tools.ietf.org/svn/tools/ietfdb/personal/rjs/6.127.1.dev1-eligibility)
+- follow [this](https://pypi.org/project/backports-datetime-fromisoformat/) workaround for a python version issue
+- replace ietf/nomcom/management/commands/list_eligible.py with [this version](list_eligibele.py)
 
 Then when in the container, you should be able to run:
 
             user@container$ ./ietf/manage.py list_eligible --file_out=myrun
 
-I don't 1000% expect anyone to do all that, but feel free to ask me for
+I don't 100% expect anyone to do all that, but feel free to ask me for
 the limited help I can offer if you'd like to.
 
 For list4, I manually created a list based on the [IAB history](https://www.iab.org/about/history/)
