@@ -94,5 +94,5 @@ Sizes:
 - List8: 452
 - List9: 290
 
-A [venn diagram](venn.png) might help.
+A venn diagram might help: ![venn diagram](venn.png) 
 
