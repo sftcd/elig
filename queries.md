@@ -64,7 +64,7 @@ a branch of my own, but if you want to help/reproduce then:
 - follow the [code-sprint instructions](SprintCoderSetup) to setup an environment (I use the docker stuff)
 - clone Robert's [branch](https://svn.tools.ietf.org/svn/tools/ietfdb/personal/rjs/6.127.1.dev1-eligibility)
 - follow [this](https://pypi.org/project/backports-datetime-fromisoformat/) workaround for a python version issue
-- replace ietf/nomcom/management/commands/list_eligible.py with [this version](list_eligibele.py)
+- replace ietf/nomcom/management/commands/list_eligible.py with [this version](list_eligibile.py)
 
 Then when in the container, you should be able to run:
 
