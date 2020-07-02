@@ -56,15 +56,16 @@ example.
 # Replication
 
 Robert Sparks was hugely helpful here and made a 
-[branch](https://svn.tools.ietf.org/svn/tools/ietfdb/personal/rjs/6.127.1.dev1-eligibility)
-that shows how to generate these lists. The results below are from my modified
-version of Robert's code. Since this is all early days, I haven't yet created
-a branch of my own, but if you want to help/reproduce then:
+[branch](https://svn.tools.ietf.org/svn/tools/ietfdb/personal/rjs/eligiblity-7.4.1.dev0)
+that shows how to generate these lists.
 
+The two most relevant files are
+[code](https://svn.tools.ietf.org/svn/tools/ietfdb/personal/rjs/eligibility-7.4.1.dev0/ietf/nomcom/management/commands/list_eligible.py) and
+[code](https://svn.tools.ietf.org/svn/tools/ietfdb/personal/rjs/eligibility-7.4.1.dev0/ietf/nomcom/utils.py). The functions at the end of the second file are the ones to look at.
+
+To reproduce the results so far:
 - follow the [code-sprint instructions](SprintCoderSetup) to setup an environment (I use the docker stuff)
 - clone Robert's [branch](https://svn.tools.ietf.org/svn/tools/ietfdb/personal/rjs/6.127.1.dev1-eligibility)
-- follow [this](https://pypi.org/project/backports-datetime-fromisoformat/) workaround for a python version issue
-- replace ietf/nomcom/management/commands/list_eligible.py with [this version](list_eligible.py)
 
 Then when in the container, you should be able to run:
 
@@ -73,28 +74,93 @@ Then when in the container, you should be able to run:
 I don't 100% expect anyone to do all that, but feel free to ask me for
 the limited help I can offer if you'd like to.
 
-For list4, I manually created a list based on the [IAB history](https://www.iab.org/about/history/)
-and [past members of the IESG](https://www.ietf.org/about/groups/iesg/past-members/). My version
-of that list is [here](list4.csv).
+Note that list4 is generated from a manually curated set (see ietf/nomcom/utils.py above). Sources included the 
+[IAB history](https://www.iab.org/about/history/)
+and [past members of the IESG](https://www.ietf.org/about/groups/iesg/past-members/.
 
-# Results
+Results of runs of this were sent to https://mailarchive.ietf.org/arch/msg/eligibility-discuss/Z2eMQi3la9NtKsDQ-WQ-AViyPTM/. That message refers to the Venn diagrams here: (venn-2018-2019.pdf).
 
-Sizes:
-- List1: 647
-- List2: 252
-- List2.1: 71
-- List2.2: 466
-- List5: 636
-- List5.1: 380
-- List5.2: 462
-- List4: 48
+The output of the runs was:
 
-- List6: 742
-- List7: 357
-- List8: 452
-- List9: 290
-
-A venn diagram might help: ![venn diagram](venn.png) 
+    === 2019, looking back 5 years.
+    
+    $ ietf/manage.py list_eligible --date 2019-04-15 --iesg_iab_date 2014-04-15 --rfc_date 2014-04-15
+    List1 has 797 members
+    List2 has 253 members
+    List2-i has 52 members
+    List2-ii has 596 members
+    List4 has 55 members
+    List4-i has 3 members
+    List4-ii has 797 members
+    List5 has 759 members
+    List5-i has 433 members
+    List5-ii has 523 members
+    union245 has 846 members
+    List1_intersect_union245  has 361 members
+    Volunteers in 2019 has 177 members
+    List1_intersect_volunteers has 171 members
+    union245_intersect_volunteers has 116 members
+    intersect_1_union245_volunteers has 115 members
+    
+    === 2019, looking back 3 years.
+    
+    $ ietf/manage.py list_eligible --date 2019-04-15 --iesg_iab_date 2016-04-15 --rfc_date 2016-04-15
+    List1 has 797 members
+    List2 has 253 members
+    List2-i has 52 members
+    List2-ii has 596 members
+    List4 has 43 members
+    List4-i has 2 members
+    List4-ii has 808 members
+    List5 has 513 members
+    List5-i has 250 members
+    List5-ii has 586 members
+    union245 has 638 members
+    List1_intersect_union245  has 334 members
+    Volunteers in 2019 has 177 members
+    List1_intersect_volunteers has 171 members
+    union245_intersect_volunteers has 114 members
+    intersect_1_union245_volunteers has 113 members
+    
+    === 2018, looking back 5 years.
+    
+    $ ietf/manage.py list_eligible --date 2018-04-15 --iesg_iab_date 2013-04-15 --rfc_date 2013-04-15
+    List1 has 779 members
+    List2 has 253 members
+    List2-i has 41 members
+    List2-ii has 567 members
+    List4 has 62 members
+    List4-i has 2 members
+    List4-ii has 760 members
+    List5 has 838 members
+    List5-i has 474 members
+    List5-ii has 456 members
+    union245 has 923 members
+    List1_intersect_union245  has 407 members
+    Volunteers in 2018 has 195 members
+    List1_intersect_volunteers has 185 members
+    union245_intersect_volunteers has 144 members
+    intersect_1_union245_volunteers has 142 members
+    
+    === 2018, looking back 3 years
+    
+    $ ietf/manage.py list_eligible --date 2018-04-15 --iesg_iab_date 2015-04-15 --rfc_date 2015-04-15
+    List1 has 779 members
+    List2 has 253 members
+    List2-i has 41 members
+    List2-ii has 567 members
+    List4 has 48 members
+    List4-i has 1 members
+    List4-ii has 773 members
+    List5 has 640 members
+    List5-i has 324 members
+    List5-ii has 504 members
+    union245 has 744 members
+    List1_intersect_union245  has 379 members
+    Volunteers in 2018 has 195 members
+    List1_intersect_volunteers has 185 members
+    union245_intersect_volunteers has 139 members
+    intersect_1_union245_volunteers has 138 members
 
 # Help
 
