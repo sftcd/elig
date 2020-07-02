@@ -60,8 +60,8 @@ Robert Sparks was hugely helpful here and made a
 that shows how to generate these lists.
 
 The two most relevant files are
-[code](https://svn.tools.ietf.org/svn/tools/ietfdb/personal/rjs/eligibility-7.4.1.dev0/ietf/nomcom/management/commands/list_eligible.py) and
-[code](https://svn.tools.ietf.org/svn/tools/ietfdb/personal/rjs/eligibility-7.4.1.dev0/ietf/nomcom/utils.py). The functions at the end of the second file are the ones to look at.
+[nomcom/management/commands/list_eligible.py](https://svn.tools.ietf.org/svn/tools/ietfdb/personal/rjs/eligibility-7.4.1.dev0/ietf/nomcom/management/commands/list_eligible.py) and
+[nomcom/utils.py](https://svn.tools.ietf.org/svn/tools/ietfdb/personal/rjs/eligibility-7.4.1.dev0/ietf/nomcom/utils.py). The functions at the end of the second file are the ones to look at.
 
 To reproduce the results so far:
 - follow the [code-sprint instructions](SprintCoderSetup) to setup an environment (I use the docker stuff)
@@ -76,9 +76,9 @@ the limited help I can offer if you'd like to.
 
 Note that list4 is generated from a manually curated set (see ietf/nomcom/utils.py above). Sources included the 
 [IAB history](https://www.iab.org/about/history/)
-and [past members of the IESG](https://www.ietf.org/about/groups/iesg/past-members/.
+and [past members of the IESG](https://www.ietf.org/about/groups/iesg/past-members/).
 
-Results of runs of this were sent to https://mailarchive.ietf.org/arch/msg/eligibility-discuss/Z2eMQi3la9NtKsDQ-WQ-AViyPTM/. That message refers to the Venn diagrams here: (venn-2018-2019.pdf).
+Results of runs of this were sent to https://mailarchive.ietf.org/arch/msg/eligibility-discuss/Z2eMQi3la9NtKsDQ-WQ-AViyPTM/. That message refers to the Venn diagrams [here](venn-2018-2019.pdf).
 
 The output of the runs was:
 
