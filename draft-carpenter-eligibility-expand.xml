@@ -5,11 +5,11 @@
 <?rfc toc="yes"?>
 <?rfc sortrefs="yes"?>
 <?rfc symrefs="yes"?>
-<rfc xmlns:xi="http://www.w3.org/2001/XInclude" ipr="trust200902" docName="draft-carpenter-eligibility-expand-04" category="exp" obsoletes="" updates="" submissionType="IETF" xml:lang="en" tocInclude="true" sortRefs="true" symRefs="true" version="3">
+<rfc xmlns:xi="http://www.w3.org/2001/XInclude" ipr="trust200902" docName="draft-carpenter-eligibility-expand-05" category="exp" obsoletes="" updates="" submissionType="IETF" xml:lang="en" tocInclude="true" sortRefs="true" symRefs="true" version="3">
   <!-- xml2rfc v2v3 conversion 2.46.0 -->
   <front>
     <title abbrev="Additional Eligibility Criteria">Additional Criteria for Nominating Committee Eligibility</title>
-    <seriesInfo name="Internet-Draft" value="draft-carpenter-eligibility-expand-04"/>
+    <seriesInfo name="Internet-Draft" value="draft-carpenter-eligibility-expand-05"/>
     <author initials="B.E." surname="Carpenter" fullname="Brian E. Carpenter">
       <organization abbrev="Univ. of Auckland">The University of Auckland</organization>
       <address>
@@ -115,13 +115,9 @@ in good time for the 2022 Nominating Committee cycle to commence.</t>
           For meetings held entirely online, online registration and attendance counts as attendance. For the 2021-2022
           Nominating Committee, the meetings concerned will be IETF 106, 107, 108, 109, and 110.
           </t>
-          <ul spacing="normal">
-            <li>This criterion has been retained for backward compatibility and expanded.</li>
-          </ul>
         </li>
         <li>Path 2: Has been a WG Chair or Secretary within the last 3 years.</li>
-        <li>Path 3: Has served in the IESG or IAB within the last 5 years.</li>
-        <li>Path 4: Has been a listed author of at least 2 IETF stream RFCs within the last 5 years.
+        <li>Path 3: Has been a listed author of at least 2 IETF stream RFCs within the last 5 years.
         An Internet-Draft that has been approved by the IESG and is in the RFC Editor queue counts.</li>
       </ul>
     </section>
@@ -131,8 +127,10 @@ in good time for the 2022 Nominating Committee cycle to commence.</t>
         <t>Certain criteria were rejected as not truly indicating effective IETF participation,
         or as being unlikely to significantly expand the volunteer pool.
         These included authorship of individual or WG-adopted Internet-Drafts, sending email to IETF lists,
-        reviewing drafts, acting as a BOF Chair, and acting in an external role for the IETF (liaisons etc.).
-        Since the criteria must be measurable by the Secretariat, no 
+        reviewing drafts, acting as a BOF Chair, and acting in an external role for the IETF (liaisons etc.).</t>
+        <t>One path, service in the IESG or IAB within the last 5 years, was found to have no benefit
+        since such people appear to be qualified by another path.</t>
+        <t>Since the criteria must be measurable by the Secretariat, no 
         qualitative evaluation of an individual's contributions is considered.</t>
       
     </section>
@@ -142,8 +140,8 @@ in good time for the 2022 Nominating Committee cycle to commence.</t>
       <ul spacing="normal">
         <li>Should we consider how many nomcom voting members qualify via which paths? 
 For example, would it be acceptable if all 10 nomcom voting members qualified via
-path 3 in one year?</li>
-        <li>Combined paths (e.g., a person who partly satisfies Path 2 and Path 5);
+the same path in one year?</li>
+        <li>Combined paths (e.g., a person who partly satisfies Path 2 and Path 3);
 otherwise known as a "points system". That seems to involve work/complexity either
 for the secretariat or for the volunteer.</li>
         <li>Tweaking the "time decay" in each of the path definitions that ensures
@@ -191,32 +189,33 @@ recent participation is more highly valued.</li>
       This underlines that automatically generated
       lists of eligible people will always require manual checking.</t>  
     
-      <t>The first two diagrams illustrate how the new paths (2, 3, 4) affect
+      <t>The first two diagrams illustrate how the new paths (2 and 3) affect
       eligibility numbers compared to the meeting participation path (1). 
       <xref target="venn1" format="default"/> gives the raw numbers, and 
       <xref target="venn2" format="default"/> removes
       those disqualified according to RFC 8713. The actual
       2020 volunteer pool is shown too.</t>
       <t><xref target="venn3" format="default"/> and <xref target="venn4" format="default"/>
-      illustrate how the new paths (2, 3, 4)
-      interact with each other, also before and after disqualifications.</t>
+      illustrate how the new paths (2 and 3)
+      interact with each other, also before and after disqualifications. The
+      discarded path via IESG and IAB service is also shown, as path "I".</t>
   
       <figure anchor="venn1">
         <name>All paths, before disqualification</name>
         <artset>
         <artwork align="left" type="ascii-art">
         <![CDATA[
-See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
+See https://www.ietf.org/id/draft-carpenter-eligibility-expand-05.html
 ]]></artwork>
 
         <artwork align="center" type="svg">
-      <!-- Generated at 2020-08-26 14:57:51 UTC+1200 from C:/brian/docs/temp/eligVenn/full.List1.txt, C:/brian/docs/temp/eligVenn/full.union234.txt, C:/brian/docs/temp/eligVenn/full.Volunteersin2020.txt -->
+      <!-- Generated at 2020-09-04 16:07:38 UTC+1200 from C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/full.List1.txt, C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/full-05.union23, C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/full.Volunteersin2020.txt -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="15 -44 638 383">
   <ellipse cx="406" cy="71" rx="112" ry="112" fill="none" fill-opacity="0" stroke-width="2" stroke="#000000"/>
   <ellipse cx="340" cy="194" rx="110" ry="110" fill="none" fill-opacity="0" stroke-width="2" stroke="#000000"/>
   <ellipse cx="277" cy="71" rx="114" ry="114" fill="none" fill-opacity="0" stroke-width="2" stroke="#000000"/>
   <text font-size="22.5774" x="212" y="58" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
-    <tspan x="212" y="58">377</tspan>
+    <tspan x="212" y="58">379</tspan>
   </text>
   <text font-size="22.5774" x="448" y="59" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
     <tspan x="448" y="59">1104</tspan>
@@ -243,7 +242,7 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
     <tspan x="723" y="44"/>
   </text>
   <text font-size="22.5774" x="317" y="41" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
-    <tspan x="317" y="41">334</tspan>
+    <tspan x="317" y="41">332</tspan>
   </text>
   <text font-size="22.5774" x="381" y="158" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
     <tspan x="381" y="158">3</tspan>
@@ -254,8 +253,8 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
   <text font-size="16" x="532" y="35" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
     <tspan x="532" y="35">People eligible</tspan>
     <tspan x="532" y="63.2222">via paths</tspan>
-    <tspan x="532" y="91.4444">2, 3, or 4:</tspan>
-    <tspan x="532" y="119.667">1543</tspan>
+    <tspan x="532" y="91.4444">2 or 3:</tspan>
+    <tspan x="532" y="119.667">1541</tspan>
   </text>
   <text font-size="16" x="214" y="332" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
     <tspan x="214" y="332">2020 actual volunteers: 135</tspan>
@@ -268,6 +267,7 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
   </text>
 </svg>
 
+
   
         </artwork></artset>
       </figure>
@@ -277,10 +277,11 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
         <artset>
         <artwork align="left" type="ascii-art">
         <![CDATA[
-See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
+See https://www.ietf.org/id/draft-carpenter-eligibility-expand-05.html
 ]]></artwork>
         <artwork align="center" type="svg">
-       <!-- Generated at 2020-08-26 14:58:33 UTC+1200 from C:/brian/docs/temp/eligVenn/disq.List1.txt, C:/brian/docs/temp/eligVenn/disq.union234.txt, C:/brian/docs/temp/eligVenn/disq.Volunteersin2020.txt -->
+       
+<!-- Generated at 2020-09-04 16:10:51 UTC+1200 from C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/disq.List1.txt, C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/disq-05.union23, C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/disq.Volunteersin2020.txt -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="15 -44 638 383">
   <ellipse cx="406" cy="71" rx="112" ry="112" fill="none" fill-opacity="0" stroke-width="2" stroke="#000000"/>
   <ellipse cx="340" cy="194" rx="110" ry="110" fill="none" fill-opacity="0" stroke-width="2" stroke="#000000"/>
@@ -324,7 +325,7 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
   <text font-size="16" x="532" y="35" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
     <tspan x="532" y="35">Qualified</tspan>
     <tspan x="532" y="63.2222">via paths</tspan>
-    <tspan x="532" y="91.4444">2, 3, or 4:</tspan>
+    <tspan x="532" y="91.4444">2 or 3:</tspan>
     <tspan x="532" y="119.667">1509</tspan>
   </text>
   <text font-size="16" x="214" y="332" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
@@ -338,6 +339,7 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
   </text>
 </svg>
 
+
  
         </artwork></artset>
       </figure>
@@ -347,11 +349,11 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
         <artset>
         <artwork align="left" type="ascii-art">
         <![CDATA[
-See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
+See https://www.ietf.org/id/draft-carpenter-eligibility-expand-05.html
 ]]></artwork>
         <artwork align="center" type="svg">
         
-<!-- Generated at 2020-08-26 15:05:59 UTC+1200 from C:/brian/docs/temp/eligVenn/full.List2, C:/brian/docs/temp/eligVenn/full.List3, C:/brian/docs/temp/eligVenn/full.List4 -->
+<!-- Generated at 2020-09-04 16:14:57 UTC+1200 from C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/full.List2, C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/full-05.List3, C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/full-05.ListI -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="15 -44 638 383">
   <ellipse cx="406" cy="71" rx="112" ry="112" fill="none" fill-opacity="0" stroke-width="2" stroke="#000000"/>
   <ellipse cx="340" cy="194" rx="110" ry="110" fill="none" fill-opacity="0" stroke-width="2" stroke="#000000"/>
@@ -360,10 +362,10 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
     <tspan x="212" y="58">46</tspan>
   </text>
   <text font-size="22.5774" x="448" y="59" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
-    <tspan x="448" y="59">2</tspan>
+    <tspan x="448" y="59">1266</tspan>
   </text>
   <text font-size="22.5774" x="331" y="258" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
-    <tspan x="331" y="258">1266</tspan>
+    <tspan x="331" y="258">2</tspan>
   </text>
   <text font-size="12.7998" x="277" y="71" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
     <tspan x="277" y="71"/>
@@ -372,7 +374,7 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
     <tspan x="277" y="71"/>
   </text>
   <text font-size="22.5774" x="252" y="158" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
-    <tspan x="252" y="158">176</tspan>
+    <tspan x="252" y="158">2</tspan>
   </text>
   <text font-size="12.7998" x="340" y="194" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
     <tspan x="340" y="194"/>
@@ -384,7 +386,7 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
     <tspan x="723" y="44"/>
   </text>
   <text font-size="22.5774" x="317" y="41" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
-    <tspan x="317" y="41">2</tspan>
+    <tspan x="317" y="41">176</tspan>
   </text>
   <text font-size="22.5774" x="381" y="158" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
     <tspan x="381" y="158">22</tspan>
@@ -396,10 +398,10 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
     <tspan x="532" y="35">People eligible</tspan>
     <tspan x="532" y="63.2222">via path 3</tspan>
     <tspan x="532" y="91.4444">Total:</tspan>
-    <tspan x="532" y="119.667">55</tspan>
+    <tspan x="532" y="119.667">1493</tspan>
   </text>
   <text font-size="16" x="214" y="332" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
-    <tspan x="214" y="332">People eligible via path 4: 1493</tspan>
+    <tspan x="214" y="332">People eligible via path "I": 55</tspan>
   </text>
   <text font-size="16" x="15" y="36" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
     <tspan x="15" y="36">People eligible</tspan>
@@ -410,6 +412,7 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
 </svg>
 
 
+
         </artwork></artset>
       </figure>
         
@@ -418,12 +421,12 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
         <artset>
         <artwork align="left" type="ascii-art">
         <![CDATA[
-See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
+See https://www.ietf.org/id/draft-carpenter-eligibility-expand-05.html
 ]]></artwork>
         <artwork align="center" type="svg">
 
 
-<!-- Generated at 2020-08-26 15:07:22 UTC+1200 from C:/brian/docs/temp/eligVenn/disq.List2, C:/brian/docs/temp/eligVenn/disq.List3, C:/brian/docs/temp/eligVenn/disq.List4 -->
+<!-- Generated at 2020-09-04 16:16:40 UTC+1200 from C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/disq.List2, C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/disq-05.List3, C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/disq-05.ListI -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="15 -44 638 383">
   <ellipse cx="406" cy="71" rx="112" ry="112" fill="none" fill-opacity="0" stroke-width="2" stroke="#000000"/>
   <ellipse cx="340" cy="194" rx="110" ry="110" fill="none" fill-opacity="0" stroke-width="2" stroke="#000000"/>
@@ -432,10 +435,10 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
     <tspan x="212" y="58">45</tspan>
   </text>
   <text font-size="22.5774" x="448" y="59" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
-    <tspan x="448" y="59">0</tspan>
+    <tspan x="448" y="59">1264</tspan>
   </text>
   <text font-size="22.5774" x="331" y="258" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
-    <tspan x="331" y="258">1264</tspan>
+    <tspan x="331" y="258">0</tspan>
   </text>
   <text font-size="12.7998" x="277" y="71" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
     <tspan x="277" y="71"/>
@@ -444,7 +447,7 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
     <tspan x="277" y="71"/>
   </text>
   <text font-size="22.5774" x="252" y="158" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
-    <tspan x="252" y="158">172</tspan>
+    <tspan x="252" y="158">1</tspan>
   </text>
   <text font-size="12.7998" x="340" y="194" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
     <tspan x="340" y="194"/>
@@ -456,7 +459,7 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
     <tspan x="723" y="44"/>
   </text>
   <text font-size="22.5774" x="317" y="41" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
-    <tspan x="317" y="41">1</tspan>
+    <tspan x="317" y="41">172</tspan>
   </text>
   <text font-size="22.5774" x="381" y="158" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
     <tspan x="381" y="158">11</tspan>
@@ -468,10 +471,10 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
     <tspan x="532" y="35">Qualified</tspan>
     <tspan x="532" y="63.2222">via path 3</tspan>
     <tspan x="532" y="91.4444">Total:</tspan>
-    <tspan x="532" y="119.667">28</tspan>
+    <tspan x="532" y="119.667">1463</tspan>
   </text>
   <text font-size="16" x="214" y="332" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
-    <tspan x="214" y="332">Qualified via path 4: 1463</tspan>
+    <tspan x="214" y="332">Qualified via path "I": 28</tspan>
   </text>
   <text font-size="16" x="15" y="36" fill="#000000" text-anchor="start" font-family="sans-serif" font-style="normal" font-weight="normal">
     <tspan x="15" y="36">Qualified</tspan>
@@ -482,6 +485,7 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
 </svg>
 
 
+
         </artwork></artset>
       </figure>
       
@@ -490,8 +494,18 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-04.html
     </section>    
     
     <section anchor="change-log" numbered="true" toc="default">
-      <name>Change Log</name>
-            <section anchor="draft-03-to-04" numbered="true" toc="default">
+      <name>Change Log [RFC Editor: please delete]</name>
+      <section anchor="draft-04-to-05" numbered="true" toc="default">
+        <name>Draft-04 to -05</name>
+        <ul spacing="normal">
+          <li>Adjusted criteria according to comments received</li>
+          <li>Removed previous path 3</li>
+          <li>Renumbered paths</li>
+          <li>Updated diagrams</li>
+          <li>Editorial improvements</li>
+        </ul>
+      </section>
+      <section anchor="draft-03-to-04" numbered="true" toc="default">
         <name>Draft-03 to -04</name>
         <ul spacing="normal">
           <li>Adjusted criteria according to comments received</li>
