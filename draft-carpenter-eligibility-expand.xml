@@ -45,37 +45,46 @@ to participate in the IETF Nominating Committee. It therefore
 also updates the criteria for qualifying signatories to a
 community recall petition. The purpose is to make the criteria
 more flexible in view of increasing remote participation in the
-IETF and a reduction in face-to-face meetings. This
+IETF and a reduction in face-to-face meetings. 
+The experiment is of fixed duration and will apply to one, or at
+most two, Nominating Committee cycles. This
 document temporarily varies the rules in RFC 8713.</t>
     </abstract>
+    
+   <note removeInRFC="true">
+      <name>Discussion Venues</name>
+      <t>Discussion of this document takes place on the
+  ad hoc mailing list (eligibility-discuss@ietf.org),
+  which is archived at <eref target="https://mailarchive.ietf.org/arch/browse/eligibility-discuss/">https://mailarchive.ietf.org/arch/browse/eligibility-discuss/</eref>.</t>
+      <t>Source for this draft can be found at
+  <eref target="https://github.com/sftcd/elig">https://github.com/sftcd/elig</eref>.</t>
+    </note>    
+    
   </front>
   <middle>
     <section anchor="intro" numbered="true" toc="default">
       <name>Introduction</name>
       <t>According to <xref target="RFC8713" format="default"/>, the IETF Nominating Committee is populated
 from a pool of volunteers with a specified record of attendance at
-IETF plenary face-to-face meetings. In view of the unexpected cancellation
-of the IETF 107 and IETF 108 face-to-face meetings, the risk of future cancellations, the probability
-of less frequent meetings in future in support of sustainability, and
-a general increase in remote participation, this document defines a
-process experiment <xref target="RFC3933" format="default"/> of fixed duration to use modified
-and additional criteria to qualify
-volunteers.</t>
-      <t>Also according to <xref target="RFC8713" format="default"/>, the qualification for signing a community
+IETF plenary meetings, assumed when that document was approved to be
+face-to-face meetings. In view of the cancellation of the IETF 107,
+108 and 109 face-to-face meetings, the risk of future cancellations, the
+probability of less frequent face-to-face  meetings in future in support
+of sustainability, and a general increase in remote participation, this
+document defines a process experiment <xref target="RFC3933" format="default"/>
+of fixed duration (described in <xref target="term"/>) to use modified and additional criteria to qualify volunteers.
+</t>
+      <t>Also according to <xref target="RFC8713" format="default"/>,
+the qualification for signing a community
 petition for the recall of certain IETF office-holders is that same as
 for the Nominating Committee. This document does not change that, but
 see <xref target="undone" format="default"/>.</t>
-      <t>The source for this is at https://github.com/sftcd/elig/ and PRs are welcome
-there. Discussion on the eligibility-discuss@ietf.org list
-is also welcome.</t>
-
-
-
-
+     
     </section>
+    
     <section anchor="term" numbered="true" toc="default">
       <name>Term and Evaluation of the Experiment</name>
-      <t>The cancellation of the in-person IETF 107 and 108 meetings
+      <t>The cancellation of the in-person IETF 107, 108 and 109 meetings
          means that the current criteria are in any case
 seriously perturbed for the next two years. The experiment therefore
 needs to start as soon as possible. However, the experiment did not apply
@@ -89,10 +98,14 @@ the experiment has produced a sufficiently large and diverse pool of
 individuals, and whether enough of those individuals have volunteered to
 produce a representative Nominating Committee with good knowledge
 of the IETF.</t>
-<t>The IESG must then also begin a community discussion of whether to amend
-<xref target="RFC8713" format="default"/> in time for the 2022 Nominating
-Committee cycle, to prolong the current experiment for a second year, or to
-do neither. The IESG will determine and announce the consensus of this discussion
+<t>The IESG must then also begin a community discussion of whether to:</t> 
+<ol><li>Amend <xref target="RFC8713" format="default"/> in time for the 2022 Nominating
+Committee cycle; or</li>
+<li>Prolong the current experiment for a second year; or</li>
+<li>Run a different experiment for the next nominating cycle; or</li>
+<li>Revert to <xref target="RFC8713" format="default"/>.</li>
+</ol>
+<t>The IESG will determine and announce the consensus of this discussion
 in good time for the 2022 Nominating Committee cycle to commence.</t>
     </section>
     <section anchor="goals" numbered="true" toc="default">
@@ -111,17 +124,38 @@ in good time for the 2022 Nominating Committee cycle to commence.</t>
       <t>There will be several alternative paths to qualification, replacing the single criterion in section 4.14 of <xref target="RFC8713" format="default"/>. Any one of the paths is sufficient, unless the person is otherwise disqualified under section 4.15 of <xref target="RFC8713" format="default"/>:</t>
       <ul spacing="normal">
         <li>
-          <t>Path 1: As per <xref target="RFC8713" format="default"/>, the person has attended 3 out of the last 5 IETF meetings.
-          For meetings held entirely online, online registration and attendance counts as attendance. For the 2021-2022
-          Nominating Committee, the meetings concerned will be IETF 106, 107, 108, 109, and 110.
+          <t>Path 1: The person has registered for
+          and attended 3 out of the last 5 IETF meetings.
+          For meetings held entirely online, online registration and attendance 
+          counts as attendance. For the 2021-2022 Nominating Committee,
+          the meetings concerned will be IETF 106, 107, 108, 109, and 110.
           </t>
         </li>
         <li>Path 2: Has been a WG Chair or Secretary within the last 3 years.</li>
         <li>Path 3: Has been a listed author of at least 2 IETF stream RFCs within the last 5 years.
         An Internet-Draft that has been approved by the IESG and is in the RFC Editor queue counts.</li>
       </ul>
+      <t>Notes:</t>
+      <ul>
+      <li>Path 1 corresponds approximately to <xref target="RFC8713" format="default"/>, modified
+      as per <xref target="RFC8788" format="default"/>.</li>
+      <li>Path 3 extends to 5 years because it commonly takes 3 or 4 years for new documents to be approved
+      in the IETF stream, so 3 years would be too short a sampling period.</li>
+      </ul>
+      
+      <section anchor="open" numbered="true" toc="default">
+      <name>Open Question</name>
+      <t>As formulated above, Path 1 does not qualify people who register and attend face-to-face meetings remotely.
+      That is, it does not qualify remote attendees at IETF 106, and if IETF 110 is held face-to-face,
+      it would not qualify remote attendees at IETF 110.</t>
+      <t>A possible resolution is to exclude remote attendees at IETF 106 (because that meeting took place prior
+      to any question of cancelling meetings, so the rules of <xref target="RFC8713" format="default"/>
+      should apply) but to include registered remote attendees at future face-to-face meetings.</t>
+      <t>This question needs to be resolved before advancing this document.</t>
+      </section>
     </section>
-    <section anchor="open" numbered="true" toc="default">
+    
+    <section anchor="omit" numbered="true" toc="default">
       <name>Omitted Criteria</name>
       
         <t>Certain criteria were rejected as not truly indicating effective IETF participation,
@@ -129,7 +163,7 @@ in good time for the 2022 Nominating Committee cycle to commence.</t>
         These included authorship of individual or WG-adopted Internet-Drafts, sending email to IETF lists,
         reviewing drafts, acting as a BOF Chair, and acting in an external role for the IETF (liaisons etc.).</t>
         <t>One path, service in the IESG or IAB within the last 5 years, was found to have no benefit
-        since such people appear to be qualified by another path.</t>
+        since historical data show that such people always appear to be qualified by another path.</t>
         <t>Since the criteria must be measurable by the Secretariat, no 
         qualitative evaluation of an individual's contributions is considered.</t>
       
@@ -137,14 +171,16 @@ in good time for the 2022 Nominating Committee cycle to commence.</t>
     
     <section anchor="undone" numbered="true" toc="default">
       <name>Possible Future Work</name>
+      <t>These items are listed for possible future discussions or experiments, beyond the
+      timescale of the 2021-2022 nominating cycle.</t>
       <ul spacing="normal">
         <li>Should we consider how many nomcom voting members qualify via which paths? 
 For example, would it be acceptable if all 10 nomcom voting members qualified via
 the same path in one year?</li>
         <li>Combined paths (e.g., a person who partly satisfies Path 2 and Path 3);
-otherwise known as a "points system". That seems to involve work/complexity either
+otherwise known as a "points system". That seems to involve work and complexity either
 for the secretariat or for the volunteer.</li>
-        <li>Tweaking the "time decay" in each of the path definitions that ensures
+        <li>Tweaking the "time decay" in each of the path definitions to ensure
 recent participation is more highly valued.</li>
         <li>Separating the NomCom volunteer criteria from the recall petitioner criteria.</li>
       </ul>
@@ -159,10 +195,11 @@ recent participation is more highly valued.</li>
     </section>
     <section anchor="acknowledgements" numbered="true" toc="default">
       <name>Acknowledgements</name>
-      <t>Useful comments were received from Alissa Cooper, John Klensin, Warren Kumari, Michael Richardson, Martin Thomson, (to be completed)</t>
+      <t>Useful comments were received from Alissa Cooper, Adrian Farrel, John Klensin, Warren Kumari, Michael Richardson, Rich Salz, and Martin Thomson.</t>
       <t>The data analysis was mainly done by Robert Sparks.</t>
     </section>
   </middle>
+  
   <back>
     <references>
       <name>Normative References</name>
@@ -184,10 +221,10 @@ recent participation is more highly valued.</li>
       107 and 108 were used, although not yet available on the IETF web site.</t>
       <t>A specific difficulty is that the databases involved inevitably contain a few
       inconsistencies such as duplicate entries, differing versions of a person's name,
-      and impersonal authors. (For example, "IAB" qualifies under Path 4, and one actual
+      and impersonal authors. (For example, "IAB" qualifies under Path 3, and one actual
       volunteer artificially appears not to qualify.)
       This underlines that automatically generated
-      lists of eligible people will always require manual checking.</t>  
+      lists of eligible and qualified people will always require manual checking.</t>  
     
       <t>The first two diagrams illustrate how the new paths (2 and 3) affect
       eligibility numbers compared to the meeting participation path (1). 
@@ -195,6 +232,7 @@ recent participation is more highly valued.</li>
       <xref target="venn2" format="default"/> removes
       those disqualified according to RFC 8713. The actual
       2020 volunteer pool is shown too.</t>
+      
       <t><xref target="venn3" format="default"/> and <xref target="venn4" format="default"/>
       illustrate how the new paths (2 and 3)
       interact with each other, also before and after disqualifications. The
@@ -205,7 +243,8 @@ recent participation is more highly valued.</li>
         <artset>
         <artwork align="left" type="ascii-art">
         <![CDATA[
-See https://www.ietf.org/id/draft-carpenter-eligibility-expand-05.html
+Diagrams will be at
+https://tools.ietf.org/id/draft-carpenter-eligibility-expand-05.html
 ]]></artwork>
 
         <artwork align="center" type="svg">
@@ -277,7 +316,8 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-05.html
         <artset>
         <artwork align="left" type="ascii-art">
         <![CDATA[
-See https://www.ietf.org/id/draft-carpenter-eligibility-expand-05.html
+Diagrams will be at
+https://tools.ietf.org/id/draft-carpenter-eligibility-expand-05.html
 ]]></artwork>
         <artwork align="center" type="svg">
        
@@ -349,7 +389,8 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-05.html
         <artset>
         <artwork align="left" type="ascii-art">
         <![CDATA[
-See https://www.ietf.org/id/draft-carpenter-eligibility-expand-05.html
+Diagrams will be at
+https://tools.ietf.org/id/draft-carpenter-eligibility-expand-05.html
 ]]></artwork>
         <artwork align="center" type="svg">
         
@@ -421,7 +462,8 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-05.html
         <artset>
         <artwork align="left" type="ascii-art">
         <![CDATA[
-See https://www.ietf.org/id/draft-carpenter-eligibility-expand-05.html
+Diagrams will be at
+https://tools.ietf.org/id/draft-carpenter-eligibility-expand-05.html
 ]]></artwork>
         <artwork align="center" type="svg">
 
@@ -493,8 +535,8 @@ See https://www.ietf.org/id/draft-carpenter-eligibility-expand-05.html
 
     </section>    
     
-    <section anchor="change-log" numbered="true" toc="default">
-      <name>Change Log [RFC Editor: please delete]</name>
+    <section anchor="change-log" numbered="true" toc="default" removeInRFC="true">
+      <name>Change Log</name>
       <section anchor="draft-04-to-05" numbered="true" toc="default">
         <name>Draft-04 to -05</name>
         <ul spacing="normal">
