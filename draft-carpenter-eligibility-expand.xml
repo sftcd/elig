@@ -5,11 +5,11 @@
 <?rfc toc="yes"?>
 <?rfc sortrefs="yes"?>
 <?rfc symrefs="yes"?>
-<rfc xmlns:xi="http://www.w3.org/2001/XInclude" ipr="trust200902" docName="draft-carpenter-eligibility-expand-05" category="exp" obsoletes="" updates="" submissionType="IETF" xml:lang="en" tocInclude="true" sortRefs="true" symRefs="true" version="3">
+<rfc xmlns:xi="http://www.w3.org/2001/XInclude" ipr="trust200902" docName="draft-carpenter-eligibility-expand-06" category="exp" obsoletes="" updates="" submissionType="IETF" xml:lang="en" tocInclude="true" sortRefs="true" symRefs="true" version="3">
   <!-- xml2rfc v2v3 conversion 2.46.0 -->
   <front>
     <title abbrev="Additional Eligibility Criteria">Additional Criteria for Nominating Committee Eligibility</title>
-    <seriesInfo name="Internet-Draft" value="draft-carpenter-eligibility-expand-05"/>
+    <seriesInfo name="Internet-Draft" value="draft-carpenter-eligibility-expand-06"/>
     <author initials="B.E." surname="Carpenter" fullname="Brian E. Carpenter">
       <organization abbrev="Univ. of Auckland">The University of Auckland</organization>
       <address>
@@ -68,23 +68,26 @@ document temporarily varies the rules in RFC 8713.</t>
 from a pool of volunteers with a specified record of attendance at
 IETF plenary meetings, assumed when that document was approved to be
 face-to-face meetings. In view of the cancellation of the IETF 107,
-108 and 109 face-to-face meetings, the risk of future cancellations, the
+108, 109 and 110 face-to-face meetings, the risk of future cancellations, the
 probability of less frequent face-to-face  meetings in future in support
 of sustainability, and a general increase in remote participation, this
 document defines a process experiment <xref target="RFC3933" format="default"/>
-of fixed duration (described in <xref target="term"/>) to use modified and additional criteria to qualify volunteers.
+of fixed duration (described in <xref target="term"/>) to use modified and
+additional criteria to qualify volunteers.
 </t>
       <t>Also according to <xref target="RFC8713" format="default"/>,
 the qualification for signing a community
 petition for the recall of certain IETF office-holders is that same as
-for the Nominating Committee. This document does not change that, but
-see <xref target="undone" format="default"/>.</t>
+for the Nominating Committee. This document does not change that.
+<!-- , but
+see <xref target="undone" format="default"/>. -->
+</t>
      
     </section>
     
     <section anchor="term" numbered="true" toc="default">
       <name>Term and Evaluation of the Experiment</name>
-      <t>The cancellation of the in-person IETF 107, 108 and 109 meetings
+      <t>The cancellation of the in-person IETF 107 through 110 meetings
          means that the current criteria are in any case
 seriously perturbed for the next two years. The experiment therefore
 needs to start as soon as possible. However, the experiment did not apply
@@ -144,14 +147,13 @@ in good time for the 2022 Nominating Committee cycle to commence.</t>
       </ul>
       
       <section anchor="open" numbered="true" toc="default">
-      <name>Open Question</name>
-      <t>As formulated above, Path 1 does not qualify people who register and attend face-to-face meetings remotely.
-      That is, it does not qualify remote attendees at IETF 106, and if IETF 110 is held face-to-face,
-      it would not qualify remote attendees at IETF 110.</t>
-      <t>A possible resolution is to exclude remote attendees at IETF 106 (because that meeting took place prior
+      <name>Clarifying Detail</name>
+      <t>Path 1 does not qualify people who register and attend face-to-face meetings remotely.
+      That is, it does not qualify remote attendees at IETF 106, because that meeting took place prior
       to any question of cancelling meetings, so the rules of <xref target="RFC8713" format="default"/>
-      should apply) but to include registered remote attendees at future face-to-face meetings.</t>
-      <t>This question needs to be resolved before advancing this document.</t>
+      apply.</t>
+      <t>If the IESG prolongs this experiment for a second year, as allowed by <xref target="term"/>,
+      the IESG will also clarify how Path 1 applies to IETF 111, 112 and 113.</t>
       </section>
     </section>
     
@@ -169,6 +171,7 @@ in good time for the 2022 Nominating Committee cycle to commence.</t>
       
     </section>
     
+    <!--
     <section anchor="undone" numbered="true" toc="default">
       <name>Possible Future Work</name>
       <t>These items are listed for possible future discussions or experiments, beyond the
@@ -185,6 +188,8 @@ recent participation is more highly valued.</li>
         <li>Separating the NomCom volunteer criteria from the recall petitioner criteria.</li>
       </ul>
     </section>
+    -->
+    
     <section anchor="iana-considerations" numbered="true" toc="default">
       <name>IANA Considerations</name>
       <t>This document makes no request of IANA.</t>
@@ -195,7 +200,7 @@ recent participation is more highly valued.</li>
     </section>
     <section anchor="acknowledgements" numbered="true" toc="default">
       <name>Acknowledgements</name>
-      <t>Useful comments were received from Alissa Cooper, Adrian Farrel, John Klensin, Warren Kumari, Michael Richardson, Rich Salz, and Martin Thomson.</t>
+      <t>Useful comments were received from Alissa Cooper, Adrian Farrel, Bron Gondwana, John Klensin, Warren Kumari, Eric Rescorla, Michael Richardson, Rich Salz, and Martin Thomson.</t>
       <t>The data analysis was mainly done by Robert Sparks.</t>
     </section>
   </middle>
@@ -244,7 +249,7 @@ recent participation is more highly valued.</li>
         <artwork align="left" type="ascii-art">
         <![CDATA[
 Diagrams will be at
-https://tools.ietf.org/id/draft-carpenter-eligibility-expand-05.html
+https://www.ietf.org/archive/id/draft-carpenter-eligibility-expand-06.html
 ]]></artwork>
 
         <artwork align="center" type="svg">
@@ -317,7 +322,7 @@ https://tools.ietf.org/id/draft-carpenter-eligibility-expand-05.html
         <artwork align="left" type="ascii-art">
         <![CDATA[
 Diagrams will be at
-https://tools.ietf.org/id/draft-carpenter-eligibility-expand-05.html
+https://www.ietf.org/archive/id/draft-carpenter-eligibility-expand-06.html
 ]]></artwork>
         <artwork align="center" type="svg">
        
@@ -390,7 +395,7 @@ https://tools.ietf.org/id/draft-carpenter-eligibility-expand-05.html
         <artwork align="left" type="ascii-art">
         <![CDATA[
 Diagrams will be at
-https://tools.ietf.org/id/draft-carpenter-eligibility-expand-05.html
+https://www.ietf.org/archive/id/draft-carpenter-eligibility-expand-06.html
 ]]></artwork>
         <artwork align="center" type="svg">
         
@@ -463,7 +468,7 @@ https://tools.ietf.org/id/draft-carpenter-eligibility-expand-05.html
         <artwork align="left" type="ascii-art">
         <![CDATA[
 Diagrams will be at
-https://tools.ietf.org/id/draft-carpenter-eligibility-expand-05.html
+https://www.ietf.org/archive/id/draft-carpenter-eligibility-expand-06.html
 ]]></artwork>
         <artwork align="center" type="svg">
 
@@ -537,6 +542,15 @@ https://tools.ietf.org/id/draft-carpenter-eligibility-expand-05.html
     
     <section anchor="change-log" numbered="true" toc="default" removeInRFC="true">
       <name>Change Log</name>
+      <section anchor="draft-05-to-06" numbered="true" toc="default">
+        <name>Draft-05 to -06</name>
+        <ul spacing="normal">
+          <li>Allowed for IETF 110 decision</li>
+          <li>Resolved open issue</li>
+          <li>Removed "future work" section</li>
+          <li>Editorial improvements</li>
+        </ul>
+      </section>
       <section anchor="draft-04-to-05" numbered="true" toc="default">
         <name>Draft-04 to -05</name>
         <ul spacing="normal">
