@@ -75,6 +75,17 @@ document defines a process experiment <xref target="RFC3933" format="default"/>
 of fixed duration (described in <xref target="term"/>) to use modified and
 additional criteria to qualify volunteers.
 </t>
+
+<t>
+    During this experiment, the eligibility criteria for signing recall
+    petitions - which 
+    <xref target="RFC8713" format="default"/>
+    defines to be the same as those for NomCom
+    eligibility - are consequently also modified as described in this document.
+    This experiment has no other effect on the recall process.
+</t>
+
+<!--
       <t>Also according to <xref target="RFC8713" format="default"/>,
 the qualification for signing a community
 petition for the recall of certain IETF office-holders is that same as
@@ -82,9 +93,8 @@ petition for the recall of certain IETF office-holders is that same as
           This document makes no explicit change to the
 recall process. The eligibility changes could affect the
 set of people involved in a potential recall process.
-<!-- , but
-see <xref target="undone" format="default"/>. -->
 </t>
+-->
      
     </section>
     
@@ -147,11 +157,12 @@ and so the community have the opportunity to comment.
 
           </t>
         </li>
-        <li>Path 2: Has been a WG Chair or Secretary within the 3 years prior to nomcom member selection.</li>
-        <li>Path 3: Has been a listed author (on the front page) of at least 2 IETF stream RFCs within the last 5 years prior to nomcom member selection.
-            An Internet-Draft that has been approved by the IESG and is in the RFC Editor queue counts the same as a published RFC (with the relevant
+        <li>Path 2: Has been a WG Chair or Secretary within the 3 years prior to the day the call 
+            for nomcom volunteers is sent to the community.</li>
+        <li>Path 3: Has been a listed author or editor (on the front page) of at least 2 IETF stream RFCs within the last 5 years prior to the day the call for nomcom volunteers is sent to the community.
+        An Internet-Draft that has been approved by the IESG and is in the RFC Editor queue counts the same as a published RFC (with the relevant
             date being the date the draft was added to the RFC editor queue). So the 5 year timer extends back to the 
-            date 5 years before the date of nomcom member selection. 
+            date 5 years before the date when the call for nomcom volunteers is sent to the community.
             </li>
       </ul>
       <t>Notes:</t>

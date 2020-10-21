@@ -117,11 +117,11 @@ Internet-Draft       Additional Eligibility Criteria        October 2020
    [RFC3933] of fixed duration (described in Section 2) to use modified
    and additional criteria to qualify volunteers.
 
-   Also according to [RFC8713], the qualification for signing a
-   community petition for the recall of certain IETF office-holders is
-   that same as for the Nominating Committee.  This document makes no
-   explicit change to the recall process.  The eligibility changes could
-   affect the set of people involved in a potential recall process.
+   During this experiment, the eligibility criteria for signing recall
+   petitions - which [RFC8713] defines to be the same as those for
+   NomCom eligibility - are consequently also modified as described in
+   this document.  This experiment has no other effect on the recall
+   process.
 
 2.  Term and Evaluation of the Experiment
 
@@ -202,20 +202,20 @@ Internet-Draft       Additional Eligibility Criteria        October 2020
       comment.
 
    *  Path 2: Has been a WG Chair or Secretary within the 3 years prior
-      to nomcom member selection.
+      to the day the call for nomcom volunteers is sent to the
+      community.
 
-   *  Path 3: Has been a listed author (on the front page) of at least 2
-      IETF stream RFCs within the last 5 years prior to nomcom member
-      selection.  An Internet-Draft that has been approved by the IESG
-      and is in the RFC Editor queue counts the same as a published RFC
-      (with the relevant date being the date the draft was added to the
-      RFC editor queue).  So the 5 year timer extends back to the date 5
-      years before the date of nomcom member selection.
+   *  Path 3: Has been a listed author or editor (on the front page) of
+      at least 2 IETF stream RFCs within the last 5 years prior to the
+      day the call for nomcom volunteers is sent to the community.  An
+      Internet-Draft that has been approved by the IESG and is in the
+      RFC Editor queue counts the same as a published RFC (with the
+      relevant date being the date the draft was added to the RFC editor
+      queue).  So the 5 year timer extends back to the date 5 years
+      before the date when the call for nomcom volunteers is sent to the
+      community.
 
    Notes:
-
-   *  Path 1 corresponds approximately to [RFC8713], modified as per
-      [RFC8788].
 
 
 
@@ -225,6 +225,9 @@ Carpenter & Farrell       Expires 24 April 2021                 [Page 4]
 
 Internet-Draft       Additional Eligibility Criteria        October 2020
 
+
+   *  Path 1 corresponds approximately to [RFC8713], modified as per
+      [RFC8788].
 
    *  Path 3 extends to 5 years because it commonly takes 3 or 4 years
       for new documents to be approved in the IETF stream, so 3 years
@@ -272,15 +275,14 @@ Internet-Draft       Additional Eligibility Criteria        October 2020
    Gondwana, John Klensin, Warren Kumari, Eric Rescorla, Michael
    Richardson, Rich Salz, and Martin Thomson.
 
-   The data analysis was mainly done by Robert Sparks.
-
-
 
 
 Carpenter & Farrell       Expires 24 April 2021                 [Page 5]
 
 Internet-Draft       Additional Eligibility Criteria        October 2020
 
+
+   The data analysis was mainly done by Robert Sparks.
 
 9.  Normative References
 
@@ -327,8 +329,6 @@ Appendix A.  Available data
    Figure 3 and Figure 4 illustrate how the new paths (2 and 3) interact
    with each other, also before and after disqualifications.  The
    discarded path via IESG and IAB service is also shown, as path "I".
-
-
 
 
 
