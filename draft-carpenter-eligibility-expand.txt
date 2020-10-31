@@ -5,8 +5,8 @@
 Network Working Group                                     B.E. Carpenter
 Internet-Draft                                         Univ. of Auckland
 Intended status: Experimental                                 S. Farrell
-Expires: 26 April 2021                            Trinity College Dublin
-                                                         23 October 2020
+Expires: 4 May 2021                               Trinity College Dublin
+                                                         31 October 2020
 
 
         Additional Criteria for Nominating Committee Eligibility
@@ -53,12 +53,12 @@ Status of This Memo
 
 
 
-Carpenter & Farrell       Expires 26 April 2021                 [Page 1]
+Carpenter & Farrell        Expires 4 May 2021                   [Page 1]
 
 Internet-Draft       Additional Eligibility Criteria        October 2020
 
 
-   This Internet-Draft will expire on 26 April 2021.
+   This Internet-Draft will expire on 4 May 2021.
 
 Copyright Notice
 
@@ -84,17 +84,18 @@ Table of Contents
    5.  Omitted Criteria  . . . . . . . . . . . . . . . . . . . . . .   5
    6.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   5
    7.  Security Considerations . . . . . . . . . . . . . . . . . . .   5
-   8.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .   5
-   9.  Normative References  . . . . . . . . . . . . . . . . . . . .   5
+   8.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .   6
+   9.  Normative References  . . . . . . . . . . . . . . . . . . . .   6
    Appendix A.  Available data . . . . . . . . . . . . . . . . . . .   6
    Appendix B.  Change Log . . . . . . . . . . . . . . . . . . . . .   7
-     B.1.  Draft-05 to -06 . . . . . . . . . . . . . . . . . . . . .   7
-     B.2.  Draft-04 to -05 . . . . . . . . . . . . . . . . . . . . .   7
-     B.3.  Draft-03 to -04 . . . . . . . . . . . . . . . . . . . . .   7
-     B.4.  Draft-02 to -03 . . . . . . . . . . . . . . . . . . . . .   8
-     B.5.  Draft-01 to -02 . . . . . . . . . . . . . . . . . . . . .   8
-     B.6.  Draft-00 to -01 . . . . . . . . . . . . . . . . . . . . .   8
-   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   8
+     B.1.  Draft-06 to -07 . . . . . . . . . . . . . . . . . . . . .   7
+     B.2.  Draft-05 to -06 . . . . . . . . . . . . . . . . . . . . .   7
+     B.3.  Draft-04 to -05 . . . . . . . . . . . . . . . . . . . . .   8
+     B.4.  Draft-03 to -04 . . . . . . . . . . . . . . . . . . . . .   8
+     B.5.  Draft-02 to -03 . . . . . . . . . . . . . . . . . . . . .   8
+     B.6.  Draft-01 to -02 . . . . . . . . . . . . . . . . . . . . .   8
+     B.7.  Draft-00 to -01 . . . . . . . . . . . . . . . . . . . . .   8
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   9
 
 1.  Introduction
 
@@ -105,15 +106,15 @@ Table of Contents
    108, 109 and 110 face-to-face meetings, the risk of future
    cancellations, the probability of less frequent face-to-face meetings
    in future in support of sustainability, and a general increase in
-   remote participation, this document defines a process experiment
 
 
 
-Carpenter & Farrell       Expires 26 April 2021                 [Page 2]
+Carpenter & Farrell        Expires 4 May 2021                   [Page 2]
 
 Internet-Draft       Additional Eligibility Criteria        October 2020
 
 
+   remote participation, this document defines a process experiment
    [RFC3933] of fixed duration (described in Section 2) to use modified
    and additional criteria to qualify volunteers.
 
@@ -140,6 +141,8 @@ Internet-Draft       Additional Eligibility Criteria        October 2020
    has produced a sufficiently large and diverse pool of individuals,
    and whether enough of those individuals have volunteered to produce a
    representative Nominating Committee with good knowledge of the IETF.
+   If possible, a comparison with results from the previous procedure
+   (i.e., RFC 8713) should be made.
 
    The IESG must then also begin a community discussion of whether to:
 
@@ -159,16 +162,17 @@ Internet-Draft       Additional Eligibility Criteria        October 2020
 
    The goals of the modified and additional criteria are as follows:
 
-   *  Mitigate the issue of active remote (or rarely in-person)
-      participants being disenfranchised in the NomCom and recall
-      processes.
 
 
 
-Carpenter & Farrell       Expires 26 April 2021                 [Page 3]
+Carpenter & Farrell        Expires 4 May 2021                   [Page 3]
 
 Internet-Draft       Additional Eligibility Criteria        October 2020
 
+
+   *  Mitigate the issue of active remote (or rarely in-person)
+      participants being disenfranchised in the NomCom and recall
+      processes.
 
    *  Prepare for an era in which face-to-face plenary meetings are less
       frequent (thus extending the issue to many, perhaps a majority, of
@@ -178,7 +182,7 @@ Internet-Draft       Additional Eligibility Criteria        October 2020
       current understanding of IETF practices and people to make
       informed decisions.
 
-   *  The criteria must be algorithmic so that the Secretariat can check
+   *  Provide algorithmic criteria, so that the Secretariat can check
       them mechanically against available data.
 
 4.  Criteria
@@ -197,9 +201,9 @@ Internet-Draft       Additional Eligibility Criteria        October 2020
       or based on being a registered person who logged in for at least
       one session of an online IETF meeting.
 
-   *  Path 2: Has been a WG Chair or Secretary within the 3 years prior
-      to the day the call for nomcom volunteers is sent to the
-      community.
+   *  Path 2: Has been a Working Group Chair or Secretary within the 3
+      years prior to the day the call for nomcom volunteers is sent to
+      the community.
 
    *  Path 3: Has been a listed author or editor (on the front page) of
       at least 2 IETF stream RFCs within the last 5 years prior to the
@@ -213,19 +217,19 @@ Internet-Draft       Additional Eligibility Criteria        October 2020
 
    Notes:
 
-   *  Path 1 corresponds approximately to [RFC8713], modified as per
-      [RFC8788].
-
-   *  Path 3 extends to 5 years because it commonly takes 3 or 4 years
 
 
 
 
-Carpenter & Farrell       Expires 26 April 2021                 [Page 4]
+Carpenter & Farrell        Expires 4 May 2021                   [Page 4]
 
 Internet-Draft       Additional Eligibility Criteria        October 2020
 
 
+   *  Path 1 corresponds approximately to [RFC8713], modified as per
+      [RFC8788].
+
+   *  Path 3 extends to 5 years because it commonly takes 3 or 4 years
       for new documents to be approved in the IETF stream, so 3 years
       would be too short a sampling period.
 
@@ -244,8 +248,8 @@ Internet-Draft       Additional Eligibility Criteria        October 2020
 
    Certain criteria were rejected as not truly indicating effective IETF
    participation, or as being unlikely to significantly expand the
-   volunteer pool.  These included authorship of individual or WG-
-   adopted Internet-Drafts, sending email to IETF lists, reviewing
+   volunteer pool.  These included authorship of individual or Working-
+   Group-adopted Internet-Drafts, sending email to IETF lists, reviewing
    drafts, acting as a BOF Chair, and acting in an external role for the
    IETF (liaisons etc.).
 
@@ -265,22 +269,29 @@ Internet-Draft       Additional Eligibility Criteria        October 2020
 
    This document should not affect the security of the Internet.
 
+
+
+
+
+
+
+
+
+Carpenter & Farrell        Expires 4 May 2021                   [Page 5]
+
+Internet-Draft       Additional Eligibility Criteria        October 2020
+
+
 8.  Acknowledgements
 
-   Useful comments were received from Alissa Cooper, Adrian Farrel, Bron
-   Gondwana, John Klensin, Warren Kumari, Eric Rescorla, Michael
-   Richardson, Rich Salz, and Martin Thomson.
+   Useful comments were received from Alissa Cooper, Lars Eggert, Adrian
+   Farrel, Bron Gondwana, John Klensin, Victor Kuarsingh, Warren Kumari,
+   Barry Leiba, Eric Rescorla, Michael Richardson, Rich Salz, and Martin
+   Thomson.
 
    The data analysis was mainly done by Robert Sparks.
 
 9.  Normative References
-
-
-
-Carpenter & Farrell       Expires 26 April 2021                 [Page 5]
-
-Internet-Draft       Additional Eligibility Criteria        October 2020
-
 
    [RFC3933]  Klensin, J. and S. Dawkins, "A Model for IETF Process
               Experiments", BCP 93, RFC 3933, DOI 10.17487/RFC3933,
@@ -316,6 +327,17 @@ Appendix A.  Available data
    generated lists of eligible and qualified people will always require
    manual checking.
 
+
+
+
+
+
+
+Carpenter & Farrell        Expires 4 May 2021                   [Page 6]
+
+Internet-Draft       Additional Eligibility Criteria        October 2020
+
+
    The first two diagrams illustrate how the new paths (2 and 3) affect
    eligibility numbers compared to the meeting participation path (1).
    Figure 1 gives the raw numbers, and Figure 2 removes those
@@ -327,52 +349,56 @@ Appendix A.  Available data
    discarded path via IESG and IAB service is also shown, as path "I".
 
 
-   Diagrams will be at
-   https://www.ietf.org/archive/id/draft-carpenter-eligibility-expand-06.html
+Diagrams will be at
+https://www.ietf.org/archive/id/draft-carpenter-eligibility-expand-07.html
+
+             Figure 1: All paths, before disqualification
 
 
+Diagrams will be at
+https://www.ietf.org/archive/id/draft-carpenter-eligibility-expand-07.html
+
+             Figure 2: All paths, after disqualification
 
 
-Carpenter & Farrell       Expires 26 April 2021                 [Page 6]
-
-Internet-Draft       Additional Eligibility Criteria        October 2020
+Diagrams will be at
+https://www.ietf.org/archive/id/draft-carpenter-eligibility-expand-07.html
+
+             Figure 3: New paths, before disqualification
 
 
-                Figure 1: All paths, before disqualification
+Diagrams will be at
+https://www.ietf.org/archive/id/draft-carpenter-eligibility-expand-07.html
 
-
-   Diagrams will be at
-   https://www.ietf.org/archive/id/draft-carpenter-eligibility-expand-06.html
-
-                Figure 2: All paths, after disqualification
-
-
-   Diagrams will be at
-   https://www.ietf.org/archive/id/draft-carpenter-eligibility-expand-06.html
-
-                Figure 3: New paths, before disqualification
-
-
-   Diagrams will be at
-   https://www.ietf.org/archive/id/draft-carpenter-eligibility-expand-06.html
-
-                Figure 4: New paths, after disqualification
+             Figure 4: New paths, after disqualification
 
 Appendix B.  Change Log
 
    This section is to be removed before publishing as an RFC.
 
-B.1.  Draft-05 to -06
+B.1.  Draft-06 to -07
+
+   *  Clarifications following reviews by Lars Eggert, Victor Kuarsingh
+      and Barry Leiba
+
+B.2.  Draft-05 to -06
 
    *  Allowed for IETF 110 decision
 
    *  Resolved open issue
 
+
+
+Carpenter & Farrell        Expires 4 May 2021                   [Page 7]
+
+Internet-Draft       Additional Eligibility Criteria        October 2020
+
+
    *  Removed "future work" section
 
    *  Editorial improvements
 
-B.2.  Draft-04 to -05
+B.3.  Draft-04 to -05
 
    *  Adjusted criteria according to comments received
 
@@ -384,15 +410,7 @@ B.2.  Draft-04 to -05
 
    *  Editorial improvements
 
-B.3.  Draft-03 to -04
-
-
-
-
-Carpenter & Farrell       Expires 26 April 2021                 [Page 7]
-
-Internet-Draft       Additional Eligibility Criteria        October 2020
-
+B.4.  Draft-03 to -04
 
    *  Adjusted criteria according to comments received
 
@@ -404,13 +422,13 @@ Internet-Draft       Additional Eligibility Criteria        October 2020
 
    *  Editorial improvements
 
-B.4.  Draft-02 to -03
+B.5.  Draft-02 to -03
 
    *  Adjusted criteria according to comments received
 
    *  Added data
 
-B.5.  Draft-01 to -02
+B.6.  Draft-01 to -02
 
    *  Made this an RFC 3933 process experiment
 
@@ -420,9 +438,17 @@ B.5.  Draft-01 to -02
 
    *  Other comments from IETF107 virtual gendispatch meeting handled
 
-B.6.  Draft-00 to -01
+B.7.  Draft-00 to -01
 
    *  Added author
+
+
+
+
+Carpenter & Farrell        Expires 4 May 2021                   [Page 8]
+
+Internet-Draft       Additional Eligibility Criteria        October 2020
+
 
 Authors' Addresses
 
@@ -441,14 +467,6 @@ Authors' Addresses
    College Green
    Dublin
    Ireland
-
-
-
-
-Carpenter & Farrell       Expires 26 April 2021                 [Page 8]
-
-Internet-Draft       Additional Eligibility Criteria        October 2020
-
 
    Email: stephen.farrell@cs.tcd.ie
 
@@ -483,22 +501,4 @@ Internet-Draft       Additional Eligibility Criteria        October 2020
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Carpenter & Farrell       Expires 26 April 2021                 [Page 9]
+Carpenter & Farrell        Expires 4 May 2021                   [Page 9]
