@@ -227,7 +227,8 @@ recent participation is more highly valued.</li>
       <t>Useful comments were received from Alissa Cooper, Lars Eggert, Adrian Farrel,
          Bron Gondwana, John Klensin, Victor Kuarsingh, Warren Kumari,
          Barry Leiba, Eric Rescorla, Michael Richardson, Rich Salz, and Martin Thomson.</t>
-      <t>The data analysis was mainly done by Robert Sparks.</t>
+      <t>The data analysis was mainly done by Robert Sparks. Carsten Bormann showed how
+         to represent Venn diagrams in ASCII art.</t>
     </section>
   </middle>
   
@@ -273,10 +274,36 @@ recent participation is more highly valued.</li>
         <name>All paths, before disqualification</name>
         <artset>
         <artwork align="left" type="ascii-art">
-        <![CDATA[
-Diagrams will be at
-https://www.ietf.org/archive/id/draft-carpenter-eligibility-expand-07.html
-]]></artwork>
+       <!-- Generated at 2020-11-02 15:35:40 UTC+1300 from C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/full.List1.txt, C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/full-05.union23, C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/full.Volunteersin2020.txt -->
+<![CDATA[
+   People eligible via path 1,
+   3 of 5 meetings: 842
+   +----------------------+
+   |                      |
+   |   379                |
+   |          +-----------+----------------+
+   |          |           |                | People eligible
+   |          |   332     |     1104       | via paths
+   |          |           |                | 2 or 3:
+   |   +------+-----------+-------+        | 1541
+   |   |      |           |       |        |
+   |   | 29   |  102      |       |        |
+   |   |      |           |       |        |
+   |   |      |           |       |        |
+   +---+------+-----------+       |        |
+       |      |                   |        |
+       |      |       3           |        |
+       |      |                   |        |
+       |      +-------------------+--------+
+       |                          |
+       |            1             |
+       |                          |
+       +--------------------------+
+       2020 actual volunteers: 135
+]]>
+
+
+</artwork>
 
         <artwork align="center" type="svg">
       <!-- Generated at 2020-09-04 16:07:38 UTC+1200 from C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/full.List1.txt, C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/full-05.union23, C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/full.Volunteersin2020.txt -->
@@ -346,10 +373,36 @@ https://www.ietf.org/archive/id/draft-carpenter-eligibility-expand-07.html
         <name>All paths, after disqualification</name>
         <artset>
         <artwork align="left" type="ascii-art">
-        <![CDATA[
-Diagrams will be at
-https://www.ietf.org/archive/id/draft-carpenter-eligibility-expand-07.html
-]]></artwork>
+        <!-- Generated at 2020-11-02 15:44:51 UTC+1300 from C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/disq.List1.txt, C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/disq-05.union23, C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/disq.Volunteersin2020.txt -->
+<![CDATA[
+   Qualified via path 1,
+   3 of 5 meetings: 806
+   +----------------------+
+   |                      |
+   |   375                |
+   |          +-----------+----------------+
+   |          |           |                | Qualified
+   |          |   300     |     1104       | via paths
+   |          |           |                | 2 or 3:
+   |   +------+-----------+-------+        | 1509
+   |   |      |           |       |        |
+   |   | 29   |  102      |       |        |
+   |   |      |           |       |        |
+   |   |      |           |       |        |
+   +---+------+-----------+       |        |
+       |      |                   |        |
+       |      |       3           |        |
+       |      |                   |        |
+       |      +-------------------+--------+
+       |                          |
+       |            1             |
+       |                          |
+       +--------------------------+
+       2020 actual volunteers: 135
+]]>
+
+
+</artwork>
         <artwork align="center" type="svg">
        
 <!-- Generated at 2020-09-04 16:10:51 UTC+1200 from C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/disq.List1.txt, C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/disq-05.union23, C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/disq.Volunteersin2020.txt -->
@@ -419,10 +472,36 @@ https://www.ietf.org/archive/id/draft-carpenter-eligibility-expand-07.html
         <name>New paths, before disqualification</name>
         <artset>
         <artwork align="left" type="ascii-art">
-        <![CDATA[
-Diagrams will be at
-https://www.ietf.org/archive/id/draft-carpenter-eligibility-expand-07.html
-]]></artwork>
+        <!-- Generated at 2020-11-02 15:47:31 UTC+1300 from C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/full.List2, C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/full-05.List3, C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/full-05.ListI -->
+<![CDATA[
+   People eligible via path 2
+   Total: 253
+   +----------------------+
+   |                      |
+   |   46                 |
+   |          +-----------+----------------+
+   |          |           |                | People eligible
+   |          |   176     |     1266       | via path 3
+   |          |           |                | Total:
+   |   +------+-----------+-------+        | 1493
+   |   |      |           |       |        |
+   |   | 2    |  29       |       |        |
+   |   |      |           |       |        |
+   |   |      |           |       |        |
+   +---+------+-----------+       |        |
+       |      |                   |        |
+       |      |       22          |        |
+       |      |                   |        |
+       |      +-------------------+--------+
+       |                          |
+       |            2             |
+       |                          |
+       +--------------------------+
+       People eligible via path "I": 55
+]]>
+
+
+</artwork>
         <artwork align="center" type="svg">
         
 <!-- Generated at 2020-09-04 16:14:57 UTC+1200 from C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/full.List2, C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/full-05.List3, C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/full-05.ListI -->
@@ -492,10 +571,35 @@ https://www.ietf.org/archive/id/draft-carpenter-eligibility-expand-07.html
         <name>New paths, after disqualification</name>
         <artset>
         <artwork align="left" type="ascii-art">
-        <![CDATA[
-Diagrams will be at
-https://www.ietf.org/archive/id/draft-carpenter-eligibility-expand-07.html
-]]></artwork>
+        <!-- Generated at 2020-11-02 15:50:53 UTC+1300 from C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/disq.List2, C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/disq-05.List3, C:/brian/docs/IETF stuff/myIETFdrafts/eligVenn/disq-05.ListI -->
+<![CDATA[
+   Qualified via path 2
+   Total: 234
+   +----------------------+
+   |                      |
+   |   45                 |
+   |          +-----------+----------------+
+   |          |           |                | Qualified
+   |          |   172     |     1264       | via path 3
+   |          |           |                | Total:
+   |   +------+-----------+-------+        | 1463
+   |   |      |           |       |        |
+   |   | 1    |  16       |       |        |
+   |   |      |           |       |        |
+   |   |      |           |       |        |
+   +---+------+-----------+       |        |
+       |      |                   |        |
+       |      |       11          |        |
+       |      |                   |        |
+       |      +-------------------+--------+
+       |                          |
+       |            0             |
+       |                          |
+       +--------------------------+
+       Qualified via path "I": 28
+]]>
+
+</artwork>
         <artwork align="center" type="svg">
 
 
@@ -572,6 +676,7 @@ https://www.ietf.org/archive/id/draft-carpenter-eligibility-expand-07.html
         <name>Draft-06 to -07</name>
         <ul spacing="normal">
           <li>Clarifications following reviews by Lars Eggert, Victor Kuarsingh and Barry Leiba</li>
+          <li>Added ASCII art versions of Venn diagrams</li>
         </ul>
       </section>
       <section anchor="draft-05-to-06" numbered="true" toc="default">
