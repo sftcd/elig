@@ -5,11 +5,11 @@
 <?rfc toc="yes"?>
 <?rfc sortrefs="yes"?>
 <?rfc symrefs="yes"?>
-<rfc xmlns:xi="http://www.w3.org/2001/XInclude" ipr="trust200902" docName="draft-carpenter-eligibility-expand-08" category="exp" obsoletes="" updates="" submissionType="IETF" xml:lang="en" tocInclude="true" sortRefs="true" symRefs="true" version="3">
+<rfc xmlns:xi="http://www.w3.org/2001/XInclude" ipr="trust200902" docName="draft-carpenter-eligibility-expand-07" category="exp" obsoletes="" updates="" submissionType="IETF" xml:lang="en" tocInclude="true" sortRefs="true" symRefs="true" version="3">
   <!-- xml2rfc v2v3 conversion 2.46.0 -->
   <front>
     <title abbrev="Additional Eligibility Criteria">Additional Criteria for Nominating Committee Eligibility</title>
-    <seriesInfo name="Internet-Draft" value="draft-carpenter-eligibility-expand-08"/>
+    <seriesInfo name="Internet-Draft" value="draft-carpenter-eligibility-expand-07"/>
     <author initials="B.E." surname="Carpenter" fullname="Brian E. Carpenter">
       <organization abbrev="Univ. of Auckland">The University of Auckland</organization>
       <address>
@@ -672,12 +672,6 @@ recent participation is more highly valued.</li>
     
     <section anchor="change-log" numbered="true" toc="default" removeInRFC="true">
       <name>Change Log</name>
-      <section anchor="draft-07-to-08" numbered="true" toc="default">
-        <name>Draft-07 to -08</name>
-        <ul spacing="normal">
-          <li>TBD</li>
-        </ul>
-      </section>
       <section anchor="draft-06-to-07" numbered="true" toc="default">
         <name>Draft-06 to -07</name>
         <ul spacing="normal">
