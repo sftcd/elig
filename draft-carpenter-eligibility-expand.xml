@@ -47,7 +47,8 @@ community recall petition. The purpose is to make the criteria
 more flexible in view of increasing remote participation in the
 IETF and a reduction in face-to-face meetings. 
 The experiment is of fixed duration and will apply to one, or at
-most two, consecutive Nominating Committee cycles. This
+most two, consecutive Nominating Committee cycles,
+starting in 2021. This
 document temporarily varies the rules in RFC 8713.</t>
     </abstract>
     
@@ -66,8 +67,8 @@ document temporarily varies the rules in RFC 8713.</t>
       <name>Introduction</name>
       <t>According to <xref target="RFC8713"/>, the IETF Nominating Committee (NomCom) is populated
 from a pool of volunteers with a specified record of attendance at
-IETF plenary meetings, assumed when that document was approved to be
-face-to-face meetings. In view of the cancellation of the IETF 107,
+IETF plenary meetings, which were assumed to be face-to-face meetings
+when that document was approved. In view of the cancellation of the IETF 107,
 108, 109 and 110 face-to-face meetings, the risk of future cancellations, the
 probability of less frequent face-to-face  meetings in future in support
 of sustainability, and a general increase in remote participation, this
@@ -108,7 +109,8 @@ to the selection of the 2020-2021 Nominating Committee,
 which was performed according to <xref target="RFC8788"/>.</t>
       <t>The experiment will initially cover the IETF Nominating Committee cycle
 that begins in 2021. As soon as the entire 2021-2022 Nominating Committee is seated,
-the IESG must consult the 2021-2022 Nominating Committee chair and the 2020-2021 Nominating Committee chair
+the IESG must consult the 2021-2022 Nominating Committee chair and the 2020-2021
+Nominating Committee chair (who will maintain NomCom confidentiality)
 and publish a
 report on the results of the experiment. Points to be considered are whether
 the experiment has produced a sufficiently large and diverse pool of
@@ -168,10 +170,15 @@ document lapses at the end of the 2022-2023 Nominating Committee cycle.</t>
         </li>
         <li>Path 2: Has been a Working Group Chair or Secretary within the 3 years prior to the day the call 
             for NomCom volunteers is sent to the community.</li>
-        <li>Path 3: Has been a listed author or editor (on the front page) of at least 2 IETF stream RFCs within the last 5 years prior to the day the call for NomCom volunteers is sent to the community.
-        An Internet-Draft that has been approved by the IESG and is in the RFC Editor queue counts the same as a published RFC (with the relevant
-            date being the date the draft was added to the RFC Editor queue). So the 5 year timer extends back to the 
-            date 5 years before the date when the call for NomCom volunteers is sent to the community.
+        <li>Path 3: Has been a listed author or editor (on the front page) of at 
+        least 2 IETF stream RFCs within the last 5 years prior to the day 
+        the call for NomCom volunteers is sent to the community.
+        An Internet-Draft that has been approved by the IESG and is in 
+        the RFC Editor queue counts the same as a published RFC, with the relevant
+            date being the date the draft was added to the RFC Editor queue. For
+            avoidance of doubt, the 5 year timer extends back to the 
+            date 5 years before the date when the call for NomCom
+            volunteers is sent to the community.
             </li>
       </ul>
       <t>Notes:</t>
@@ -694,7 +701,7 @@ recent participation is more highly valued.</li>
       <section anchor="draft-09-to-10" numbered="true" toc="default">
         <name>Draft-09 to -10</name>
         <ul spacing="normal">
-          <li>TBD</li>
+          <li>IESG comments</li>
         </ul>
       </section>
       <section anchor="draft-08-to-09" numbered="true" toc="default">
